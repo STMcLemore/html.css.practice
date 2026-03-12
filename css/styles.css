@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    color: whitesmoke; 
+    text-align: center;
+    font-size: 1.25rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: papayawhip;
+    
+}
+
+.clr-accent {
+    color: #000;
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+.paragraph-background {
+    background-color: rgba(19, 16, 11, 0.829);
+    padding: 1em;
+    width: 325px;
+}
+
+
+.column {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
